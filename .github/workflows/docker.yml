@@ -36,3 +36,4 @@ jobs:
           # Layer caching: speeds up rebuilds by reusing unchanged layers from a previous push
           cache-from: type=registry,ref=ghcr.io/${{ github.repository }}:cache
           cache-to: type=registry,ref=ghcr.io/${{ github.repository }}:cache,mode=max
+          
