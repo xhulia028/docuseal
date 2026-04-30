@@ -1,9 +1,9 @@
 # TODO: Construct the Terraform script to provision a Hetzner server 
 terraform {
 	cloud {
-	  organization = "StarlinerDev"  # TODO: change to your own TF Cloud org
+	  organization = "myorg_xhulia"  # TODO: change to your own TF Cloud org
 	  workspaces {
-	    name = "workshop" # TODO: change your workspace name
+	    name = "docuseal" # TODO: change your workspace name
 	  }
 	}
 
